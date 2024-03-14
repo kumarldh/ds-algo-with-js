@@ -1,0 +1,14 @@
+{
+  "name": "ds-algo-with-js",
+  "version": "1.0.0",
+  "description": "Some DS & algo tit bits in JavaScript...",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "kumar chetan sharma",
+  "license": "ISC",
+  "dependencies": {
+    "eslint": "^8.57.0",
+    "jsdoc": "^4.0.2"
+  }
+}
