@@ -1,2 +1,3 @@
 # ds-algo-with-js
-some tit bits js lines
+
+Some tit bits using JavaScript. Run
