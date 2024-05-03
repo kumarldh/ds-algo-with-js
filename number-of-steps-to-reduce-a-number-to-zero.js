@@ -6,10 +6,23 @@
  */
 
 /**
+ * Util/helper for determining if a number is even.
+ *
+ * @param {number} number
+ * @returns
+ */
+const isEven = (number) => number % 2 === 0;
+/**
  * @param {number} num
  * @return {number}
  */
-const numberOfSteps = function (num) {};
+const numberOfSteps = function (num) {
+  // Already 0
+  if (num === 0) {
+    return num;
+  }
+  return 1 + (isEven(num) ? numberOfSteps(num / 2) : numberOfSteps(num - 1));
+};
 
 [
   [14, 6],
@@ -22,6 +35,6 @@ const numberOfSteps = function (num) {};
   const k = numberOfSteps(nums);
   console.log(`before: ${nums}
   after: ${k}
-  expecte: ${expectedNums}`);
+  expected: ${expectedNums}`);
   console.groupEnd();
 });
