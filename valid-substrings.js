@@ -50,7 +50,7 @@ const largeGroupPositions = (s) => {
   ['abbxxxxzzy', [[3, 6]]],
   ['abc', []],
   ['aabbc', []],
-  ['aabbbc', [2, 4]],
+  ['aabbbc', [[2, 4]]],
   [
     'abcdddeeeeaabbbcd',
     [

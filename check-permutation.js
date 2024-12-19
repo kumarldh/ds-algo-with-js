@@ -1,7 +1,7 @@
 /**
  * Given two strings, write a method to decide if one is a permutation of the other.
  * checkPermutation('aeiou', 'eioua') => true
- * checkPermutation('chetan', 'sharma') => true
+ * checkPermutation('chetan', 'sharma') => false
  */
 
 const checkPermutation = (str, perm) => {

@@ -7,6 +7,11 @@
  * compressString('aabcccccaaa') => 'a2blc5a3'
  */
 
+/**
+ *
+ * @param {string} str
+ * @returns
+ */
 const compressString = (str) => {
   let out = '';
   const splitStr = str.split('').forEach((e, idx) => {

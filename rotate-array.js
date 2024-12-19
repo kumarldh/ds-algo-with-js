@@ -7,7 +7,6 @@
 const rotate = (nums, k) => {
   const numsLength = nums.length;
   const movedToLeft = nums.splice(0, numsLength - k);
-  //nums.splice(0, numsLength - k).concat([...movedToLeft]);
   return movedToLeft.concat();
 };
 
